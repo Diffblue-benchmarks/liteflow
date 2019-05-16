@@ -168,3 +168,15 @@ units:
       file: cn/lite/flow/common/utils/Constants.class
       sourceDir: lite-flow-common/src/main/java
       sourceFile: cn/lite/flow/common/utils/Constants.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: lite-flow-common/target/classes
+      file: cn/lite/flow/common/utils/HadoopUtils.class
+      sourceDir: lite-flow-common/src/main/java
+      sourceFile: cn/lite/flow/common/utils/HadoopUtils.java
+    # Child of HadoopUtils.class
+    # Child Coverage: Unknown %
+    - dir: lite-flow-common/target/classes
+      file: cn/lite/flow/common/model/consts/CommonConstants.class
+      sourceDir: lite-flow-common/src/main/java
+      sourceFile: cn/lite/flow/common/model/consts/CommonConstants.java
