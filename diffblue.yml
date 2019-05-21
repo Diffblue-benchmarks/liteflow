@@ -180,3 +180,9 @@ units:
       file: cn/lite/flow/common/model/consts/CommonConstants.class
       sourceDir: lite-flow-common/src/main/java
       sourceFile: cn/lite/flow/common/model/consts/CommonConstants.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: lite-flow-common/target/classes
+      file: cn/lite/flow/common/utils/DateUtils.class
+      sourceDir: lite-flow-common/src/main/java
+      sourceFile: cn/lite/flow/common/utils/DateUtils.java
